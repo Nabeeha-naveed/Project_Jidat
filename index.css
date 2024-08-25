@@ -1,0 +1,93 @@
+*{
+    color: white;
+    font-family: "DM Serif Text";
+    margin: 0;
+}
+
+.div-main{
+    background-image: url("./assest/img2.jfif");
+    height: 932px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.contents{
+    padding-top: 15px;
+}
+
+.item{
+    text-decoration: none;
+    display: inline;
+    font-size: 26px;
+    padding: 0px 20px;
+    text-transform: capitalize;
+}
+
+.img1{
+    height: 800px;
+    width: 600px;
+}
+
+.hero-text{
+    font-size: 65px;
+    width: 700px;
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 540px;
+    text-shadow: 10px 5px 1px rgba(255, 255, 255, 0.24);
+}
+
+.cardsdiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    position: fixed;
+    top: 450px;
+    left: 240px;
+}
+
+.card-head{
+    font-family: Roboto;
+    text-shadow: 0px 0px 2px white;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.539);
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: larger;
+    text-align: center;
+    width: 350px;
+    line-height: 30px;
+}
+
+.btn{
+    margin: 20px 0 0 110px;
+    border:2px solid white;
+    color: white;
+    background: none;
+    border-radius: 25px;
+    padding: 8px 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.265);
+}
