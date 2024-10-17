@@ -4,11 +4,16 @@ body{
     font: Tinos;
     text-align: center;
     background: linear-gradient(65deg,#6e337b, #e396cc, #863453);
+    background-repeat: no-repeat;
 }
 
 html, body {
     min-height: 100%;
-    height: auto;    
+    height: auto;   
+    width: 100%;
+    margin: 0;      /* Remove default margin */
+    padding: 0;     /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width */ 
 }
 
 @media only screen and (max-width: 599px) {
